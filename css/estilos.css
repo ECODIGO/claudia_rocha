@@ -1,0 +1,52 @@
+/* Con asterisco le quitamos los margenes que el navegador le da */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* p{
+    margin-top: 50px;
+    border: dotted 3px blue;
+    padding: 30px;
+}
+img{
+    border: darkblue
+} */
+
+  /* barra de menu */
+  
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    text-align: center;
+    border-radius: 30px;
+     /* border radios redondea el borde de las puntas */
+    box-shadow: 3px -3px 3px grey;
+    /* sombra de elementos tamaño, de que lado, tamaño color */
+    border:solid 1px rgb(58, 59, 58);
+    padding: 15px;
+    background-color: grey;
+    width: 200px;
+    /* width nos permite dar el tamaño del recuadro del boton */
+    margin: 30px;
+}
+p{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 0 3px grey;
+    letter-spacing: 3px;
+}
+image{
+    width: 300px;
+}
+header{
+    background: linear-gradient(rgb(241, 238, 238), rgb(212, 221, 212));
+    padding: 80px;
+}
+ul{
+    display: flex;
+    /* pone los hijos a un lado del otro */
+}
+
